@@ -1,5 +1,5 @@
-#include <Wire.h>
-#include <TimeLib.h>
+//#include <Wire.h>
+#include <Time.h>
 #include <DS1307RTC.h>
 
 void setup() {
