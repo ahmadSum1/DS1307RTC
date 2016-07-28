@@ -1,5 +1,5 @@
-#include <Wire.h>
-#include <TimeLib.h>
+//#include <Wire.h>
+#include <Time.h>
 #include <DS1307RTC.h>
 
 const char *monthName[12] = {
@@ -72,4 +72,3 @@ bool getDate(const char *str)
   tm.Year = CalendarYrToTm(Year);
   return true;
 }
-
