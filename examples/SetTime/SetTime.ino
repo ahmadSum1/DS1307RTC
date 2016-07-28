@@ -1,3 +1,9 @@
+/*
+ * this code syncs the RTC module's time
+ * to the PC and you dont need to set
+ * them manually
+ */
+
 //#include <Wire.h>
 #include <Time.h>
 #include <DS1307RTC.h>
